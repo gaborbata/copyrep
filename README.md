@@ -1,4 +1,4 @@
-# copyrep
+# copyrep ![Unit Test](https://github.com/gaborbata/copyrep/workflows/Unit%20Test/badge.svg)
 
 Script to replace copyright headers of supported source code files based on the provided `copyright.erb` template.
 
