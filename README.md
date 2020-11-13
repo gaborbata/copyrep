@@ -13,7 +13,7 @@ mvn exec:java -Dsourcedir=<source directory>
 The `sourcedir` property must point to the directory which contains the source files, e.g.:
 
 ```
-mvn exec:java -Dsourcedir=c:/project/c360-cex-bundle
+mvn exec:java -Dsourcedir=c:/projects/acme-bundle
 ```
 
 You can run unit tests with the `mvn exec:java -Ptest` command.
