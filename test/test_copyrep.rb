@@ -1,6 +1,14 @@
 require 'test/unit'
 require 'fileutils'
 
+class Time
+  class << Time
+    def now
+      Time.new('2020')
+    end
+  end
+end
+
 class TestHeaderReplace < Test::Unit::TestCase
 
   def setup
